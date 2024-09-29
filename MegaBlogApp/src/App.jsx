@@ -31,7 +31,8 @@ return !loading ? (
     <div className='w-full block'>
       <Header />
       <main>
-        TODO:{/* <Outlet /> */}
+        {/* TODO:<Outlet /> */}
+        <Outlet />
       </main>
       <Footer />
     </div>
